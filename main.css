@@ -320,8 +320,8 @@ header {
     position: relative;
     bottom: 62px;
     left: 34px;
-    text-align: center;
     padding-top: 5px;
+    text-align: center;
     font-size: 10px;
     background-color: rgba(32, 30, 67, 1);
     border-radius: 13px;
@@ -335,9 +335,9 @@ header {
     padding: 22px;
 }
 
-.big-img > h3 {
-    margin-left: 20px;
-    margin-bottom: 20px;
+.big-card > h3 {
+    padding-left: 40px;
+    padding-bottom: 20px;
 }
 
 .top-tittle {
@@ -351,7 +351,7 @@ header {
 .big-card-bottom {
     display: grid;
     grid-template-columns: 75px 15px 70px;
-    margin-left: 20px;
+    margin-left: 40px;
     font-size: 12px;
 }
 
@@ -436,10 +436,10 @@ th {
 
 .top-tittle-bottom {
     display: grid;
-    grid-template-columns: 121px 60px;
+    grid-template-columns: 221px 60px;
     align-items: center;
     justify-content: space-between;
-    padding: 11px 45px 20px 14px;
+    padding: 11px 45px 20px 21px;
 }
 
 .big-card-box {
