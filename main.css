@@ -25,7 +25,7 @@ body {
 main {
     display: grid;
     grid-template-columns: 2fr 1fr;
-    grid-template-rows: 1fr 7fr 1fr 7fr;
+    grid-template-rows: 65px;
 }
 
 
@@ -120,12 +120,11 @@ main {
 
 header {
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 681px 910px;
     height: 100px;
     margin-top: 26px;
     align-items: center;
     justify-content: center;
-    width: 1500px;
     padding-left: 25px;
 }
 
@@ -307,7 +306,6 @@ header {
     height: 403px;
     right: 214px;
     border-radius: 15px;
-    position: absolute;
     background: rgba(32, 30, 67, 1);
 }
 
@@ -357,11 +355,12 @@ header {
 
 .top-nfts {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 200px 100px;
     grid-column: 1 / 2;
     grid-row: 3 / 3;
     align-items: center;
     gap: 670px;
+    margin: 15px 0;
 }
 
 .top-nfts h2 {
@@ -428,10 +427,12 @@ th {
 .big-card-2 {
     display: grid;
     width: 331px;
-    height: 360px;
+    height: 385px;
     border-radius: 15px;
     background: rgba(32, 30, 67, 1);
     align-items: center;
+    grid-row: 3/5;
+    margin-top: 22px;
 }
 
 .top-tittle-bottom {
